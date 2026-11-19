@@ -1,0 +1,18 @@
+cff-version: "1.2.0"
+type: software
+title: "Do Machines Keep the Beat? Automatic Analysis of Eurhythmy in Catalan Human and Machine Literary Translation"
+message: "If you use this analysis code, please cite it using the metadata in this file."
+authors:
+  - given-names: Maria
+    family-names: Ferragud
+  - given-names: Meritxell
+    family-names: "Mico Frau"
+license: CC-BY-NC-4.0
+abstract: "Analysis scripts for comparing stress intervals and recurring rhythmic motifs in Catalan human translations, machine translations, and original literary prose."
+keywords:
+  - Machine translation
+  - literary translation
+  - prose rhythm
+  - automatic analysis
+  - Catalan
+  

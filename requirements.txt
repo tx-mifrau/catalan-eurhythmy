@@ -1,0 +1,6 @@
+# Required for the paired statistical tests, checked with Python 3.13.
+pandas==2.3.3
+scipy==1.16.0
+
+# Used by clean_original_catalan_texts.py when NLTK model data is available.
+nltk

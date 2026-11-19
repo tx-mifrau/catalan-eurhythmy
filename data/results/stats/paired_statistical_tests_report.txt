@@ -1,0 +1,9 @@
+Paired statistical tests for rhythmic measures
+
+Null hypothesis (H0): There is no significant difference in the rhythmic patterns between human and machine translation.
+Alternative hypothesis (H1): There is a significant difference in the rhythmic patterns between human and machine translation.
+
+H1 (prop_intervals_2_or_3): A Shapiro-Wilk test on the paired differences (CA - TA) returned W=0.977, p = 0.6576, so a Paired Samples T-test was used. The measure was significant; Machine Translation (TA) showed the higher mean (CA M=0.593574, TA M=0.596369; t=-2.047, p = 0.0482, Cohen's d=-0.341).
+H2NEW (prop_intervals_1): A Shapiro-Wilk test on the paired differences (CA - TA) returned W=0.974, p = 0.5586, so a Paired Samples T-test was used. The measure was highly significant; Machine Translation (TA) showed the higher mean (CA M=0.196294, TA M=0.207371; t=-5.442, p < 0.001, Cohen's d=-0.907).
+H2NEW (prop_intervals_4): A Shapiro-Wilk test on the paired differences (CA - TA) returned W=0.963, p = 0.2636, so a Paired Samples T-test was used. The measure was highly significant; Human Translation (CA) showed the higher mean (CA M=0.206152, TA M=0.192538; t=8.575, p < 0.001, Cohen's d=1.429).
+H3 (prop_seq_weighted_2_or_3): A Shapiro-Wilk test on the paired differences (CA - TA) returned W=0.497, p < 0.001, so a Wilcoxon Signed-Rank Test was used. The measure was highly significant; Machine Translation (TA) showed the higher mean (CA M=0.891327, TA M=0.936031; W=155.000, p = 0.0044, r=0.475).
